@@ -35,3 +35,8 @@ O desafio consiste em desenvolver uma página de Login e o carregamento do Dashb
 - Commits semanticos
 - Adaptar a página para dispositivos móveis (torná-la responsiva).
 - Boa documentação.
+
+### Como realizar a entrega
+- Faça um fork desse repositório.
+- Resolva o desafio da melhor maneira que você puder.
+- Envie um pull-request para análise do resultado.
