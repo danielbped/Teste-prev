@@ -17,7 +17,7 @@ O desafio consiste em desenvolver uma página de Login e o carregamento do Dashb
 - Deve ser utilizado o `creact-react-app` com a versão mais atual
 - Seguir a implementação do Design [Figma](https://www.figma.com/file/RCZ9wWsHBet9dTQl6RIIHW/Teste-Prev-Front-end) chegando mais próximo possível.
 - Utilizar o framework [AntD](https://ant.design/) para base dos componentes 
-- As chamadas aos serviços esta disponível no arquivo `request-mock.txt`
+- As chamadas aos serviços esta disponível no arquivo `requests-mock.txt`
 
 ### Requisitos
 - Login
@@ -30,13 +30,17 @@ O desafio consiste em desenvolver uma página de Login e o carregamento do Dashb
         - A lista deve ser página de 2 em 2 resultados, mostrando uma paginação
     - Clicar sobre o avatar do usuário abrir um Modal mostrando as informações do usuário logado
 
-### Difenciais
+### Diferenciais
 - Testes unitários / funcionais
 - Commits semanticos
 - Adaptar a página para dispositivos móveis (torná-la responsiva).
 - Boa documentação.
 
-### Como realizar a entrega
+# Rodando o servidor mock
+- Instalar o json-server `npm install -g json-server`
+- Executar o seguinte comando `json-server --watch db.json -p 8080 -m lmd.js`
+
+# Como realizar a entrega
 - Faça um fork desse repositório.
 - Resolva o desafio da melhor maneira que você puder.
 - Envie um pull-request para análise do resultado.
