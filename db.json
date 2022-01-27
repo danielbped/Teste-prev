@@ -1,4 +1,34 @@
 {
+  "counter": [
+    {
+      "tipo": "CLIENTES",
+      "total": 10,
+      "totalPeriodo": {
+        "mensal": 5
+      }
+    },
+    {
+      "tipo": "PETICOES",
+      "total": 135,
+      "totalPeriodo": {
+        "mensal": 100
+      }
+    },
+    {
+      "tipo": "CALCULOS",
+      "total": 1205,
+      "totalPeriodo": {
+        "mensal": 592
+      }
+    },
+    {
+      "tipo": "CASOS",
+      "total": 0,
+      "totalPeriodo": {
+        "mensal": 0
+      }
+    }
+  ],
   "peticoes": [
     {
       "id": "0057d2a4-e480-4f38-9e1d-8136cbf6de15",
@@ -9,18 +39,12 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_IDADE"
-      ],
-      "subtipo": [
-        "RURAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_IDADE"],
+      "subtipo": ["RURAL"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "slug": "peticao-inicial-aposentadoria-por-idade-rural-possibilidade-de-cumulacao-com-pensao-por-morte-superior-ao-salario-minimo-20190904120020",
-      "tags": [
-        "TRABALHADOR_RURAL"
-      ],
+      "tags": ["TRABALHADOR_RURAL"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -44,12 +68,8 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "SALARIO_MATERNIDADE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["SALARIO_MATERNIDADE"],
+      "subtipo": ["NORMAL"],
       "slug": "peticao-inicial-salario-maternidade-inaplicabilidade-do-prazo-decadencial-previsto-pela-mp-8712019-nascimento-anterior-a-edicao-da-mp-20191210022330",
       "tags": [],
       "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
@@ -74,16 +94,10 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "PENSAO_POR_MORTE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["PENSAO_POR_MORTE"],
+      "subtipo": ["NORMAL"],
       "slug": "incidente-de-uniformizacao-nacional-pensao-por-morte-vinculo-empregaticio-reconhecido-na-seara-trabalhista-e-ratificado-por-prova-testemunhal-20200217112642",
-      "tags": [
-        "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"
-      ],
+      "tags": ["CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "matheus@previdenciarista.com",
       "curtidas": 0,
@@ -106,19 +120,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_ESPECIAL"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_ESPECIAL"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoEspecialMinimo": 25,
       "slug": "peticao-inicial-aposentadoria-especial-guarda-municipal-especialidade-independe-do-porte-de-arma-de-fogo-20191218033951",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
       "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
       "curtidas": 0,
@@ -129,9 +137,7 @@
         {
           "codigo": "517215",
           "titulo": "Guarda-civil municipal",
-          "sinonimos": [
-            "Guarda-civil metropolitano"
-          ]
+          "sinonimos": ["Guarda-civil metropolitano"]
         }
       ],
       "incapacidades": [],
@@ -149,19 +155,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "OUTROS",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 35,
       "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-pelo-fator-8696-conversao-de-tempo-especial-em-comum-20190523034044",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "yoshiaki_yamamoto@hotmail.com",
       "atualizadoPor": "yoshiaki_yamamoto@hotmail.com",
       "curtidas": 0,
@@ -184,12 +184,8 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "AUXILIO_DOENCA"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["AUXILIO_DOENCA"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "slug": "recurso-inominado-seguro-desemprego-inexistencia-de-prazo-legal-para-o-requerimento-do-beneficio-20200728112253",
       "tags": [],
@@ -215,19 +211,13 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 30,
       "slug": "peticao-inicial-aposentadoria-por-tempo-de-contribuicao-conversao-de-tempo-especial-atendente-de-farmacia-hospitalar-20191211030458",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -238,9 +228,7 @@
         {
           "codigo": "521130",
           "titulo": "Atendente de farmácia - balconista",
-          "sinonimos": [
-            "Ajudante de farmácia"
-          ]
+          "sinonimos": ["Ajudante de farmácia"]
         }
       ],
       "incapacidades": [],
@@ -258,19 +246,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 35,
       "slug": "requerimento-administrativo-revisao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-afastamento-do-fator-previdenciario-pela-regra-dos-pontos-art-29-c-da-lei-821391-20190728051144",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -293,19 +275,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_IDADE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_IDADE"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 15,
       "slug": "requerimento-administrativo-aposentadoria-por-idade-computo-de-auxilio-doenca-para-fins-de-carencia-portaria-no-122020-do-inss-20200529044316",
-      "tags": [
-        "INCAPACIDADE_PARA_TRABALHO"
-      ],
+      "tags": ["INCAPACIDADE_PARA_TRABALHO"],
       "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
       "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
       "curtidas": 0,
@@ -329,19 +305,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "REVISAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 35,
       "slug": "peticao-inicial-revisao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-frentista-e-chefe-de-pista-de-posto-de-combustivel-hidrocarbonetos-e-benzeno-periculosidade-20200811053353",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "yoshiaki@previdenciarista.com",
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
@@ -389,18 +359,12 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_IDADE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_IDADE"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "tempoDeContribuicaoMinimo": 15,
       "slug": "peticao-inicial-aposentadoria-por-idade-reforma-da-previdencia-ec-1032019-fim-da-exigencia-de-carencia-computo-de-tempo-especial-20200408031713",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "yoshiaki@previdenciarista.com",
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
@@ -424,12 +388,8 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL"],
       "competencia": "OUTROS",
       "tempoDeContribuicaoMinimo": 35,
       "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-averbacao-de-tempo-de-servico-urbano-20190831050435",
@@ -456,12 +416,8 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "AUXILIO_RECLUSAO"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["AUXILIO_RECLUSAO"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "slug": "peticao-inicial-auxilio-reclusao-restabelecimento-do-beneficio-apos-recaptura-do-segurado-20200618032904",
       "tags": [],
@@ -488,20 +444,13 @@
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "REVISAO",
       "tipoDeRevisao": "REVISAO_VIDA_TODA",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 30,
       "slug": "peticao-inicial-aposentadoria-por-tempo-de-contribuicao-regra-dos-pontos-calculo-da-rmi-pela-regra-permanente-do-art-29-i-da-lei-821391-vida-toda-20200309110242",
-      "tags": [
-        "GPS_NAO_COMPUTADO",
-        "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"
-      ],
+      "tags": ["GPS_NAO_COMPUTADO", "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -524,12 +473,8 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "PENSAO_POR_MORTE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["PENSAO_POR_MORTE"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "slug": "recurso-inominado-pensao-por-morte-filho-maior-de-21-anos-com-deficiencia-intelectual-ou-mental-20200403093131",
       "tags": [],
@@ -555,17 +500,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
       "subtipo": [],
       "competencia": "OUTROS",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 35,
       "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-motorista-atividade-especial-transporte-de-inflamaveis-20190529053157",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "yoshiaki@previdenciarista.com",
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
@@ -633,16 +574,12 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_INVALIDEZ"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_INVALIDEZ"],
       "subtipo": [],
       "competencia": "FEDERAL",
       "carenciaMinima": 12,
       "slug": "manifestacao-aposentadoria-por-invalidez-afastamento-da-reabilitacao-segurado-com-transplante-hepatico-20190729043326",
-      "tags": [
-        "INCAPACIDADE_PARA_TRABALHO"
-      ],
+      "tags": ["INCAPACIDADE_PARA_TRABALHO"],
       "criadoPor": "yoshiaki@previdenciarista.com",
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
@@ -669,9 +606,7 @@
         "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO_PROFESSOR",
         "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
       ],
-      "subtipo": [
-        "PROFESSOR"
-      ],
+      "subtipo": ["PROFESSOR"],
       "competencia": "FEDERAL",
       "slug": "recurso-administrativo-aposentadoria-especial-de-professor-necessidade-de-comprovacao-do-efetivo-exercicio-da-funcao-de-magisterio-20200610111546",
       "tags": [],
@@ -697,19 +632,13 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "FEDERAL",
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 30,
       "slug": "apelacao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-exposicao-ao-ruido-comprovada-20190731100803",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -732,12 +661,8 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "ASSISTENCIAL"
-      ],
-      "subtipo": [
-        "PROFESSOR"
-      ],
+      "tiposDeBeneficio": ["ASSISTENCIAL"],
+      "subtipo": ["PROFESSOR"],
       "competencia": "FEDERAL",
       "slug": "manifestacao-beneficio-assistencial-ao-idoso-loas-analise-do-grupo-familiar-20190723111706",
       "tags": [],
@@ -764,12 +689,8 @@
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "REVISAO",
       "tipoDeRevisao": "REVISAO_VIDA_TODA",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
-      "subtipo": [
-        "NORMAL_PONTOS"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
+      "subtipo": ["NORMAL_PONTOS"],
       "competencia": "FEDERAL",
       "slug": "peticao-inicial-revisao-da-vida-toda-aposentadoria-por-tempo-de-contribuicao-regra-dos-pontos-inclusao-de-salarios-de-contribuicao-anteriores-a-071994-20200305030658",
       "tags": [],
@@ -795,12 +716,8 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "PENSAO_POR_MORTE"
-      ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "tiposDeBeneficio": ["PENSAO_POR_MORTE"],
+      "subtipo": ["NORMAL"],
       "competencia": "FEDERAL",
       "slug": "peticao-inicial-pensao-por-morte-segurado-recebia-auxilio-acidente-lei-1384619-manutencao-da-qualidade-de-segurado-por-12-meses-20191210024853",
       "tags": [],
@@ -826,18 +743,12 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_IDADE"
-      ],
-      "subtipo": [
-        "RURAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_IDADE"],
+      "subtipo": ["RURAL"],
       "competencia": "OUTROS",
       "carenciaMinima": 180,
       "slug": "recurso-administrativo-aposentadoria-por-idade-rural-cadastro-de-empresa-inativa-nao-descaracteriza-a-condicao-de-segurado-especial-atividade-rural-comprovada-20190916054339",
-      "tags": [
-        "TRABALHADOR_RURAL"
-      ],
+      "tags": ["TRABALHADOR_RURAL"],
       "criadoPor": "lucas@previdenciarista.com",
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
@@ -861,17 +772,12 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "AUXILIO_DOENCA",
-        "APOSENTADORIA_POR_INVALIDEZ"
-      ],
+      "tiposDeBeneficio": ["AUXILIO_DOENCA", "APOSENTADORIA_POR_INVALIDEZ"],
       "subtipo": [],
       "competencia": "FEDERAL",
       "carenciaMinima": 0,
       "slug": "recurso-inominado-auxilio-doenca-indenizado-qualidade-de-segurado-microempreendedor-individual-lei-complementar-123-20190927105001",
-      "tags": [
-        "INCAPACIDADE_PARA_TRABALHO"
-      ],
+      "tags": ["INCAPACIDADE_PARA_TRABALHO"],
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
       "criticas": 0,
@@ -893,16 +799,12 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "AUXILIO_DOENCA"
-      ],
+      "tiposDeBeneficio": ["AUXILIO_DOENCA"],
       "subtipo": [],
       "competencia": "FEDERAL",
       "carenciaMaxima": 12,
       "slug": "recurso-auxilio-doenca-pericia-com-especialista-em-psiquiatria-falta-de-pretensao-resistida-analise-de-bulas-de-medicamentos-20190513053704",
-      "tags": [
-        "INCAPACIDADE_PARA_TRABALHO"
-      ],
+      "tags": ["INCAPACIDADE_PARA_TRABALHO"],
       "atualizadoPor": "atila@previdenciarista.com",
       "curtidas": 0,
       "criticas": 0,
@@ -929,15 +831,11 @@
         "AUXILIO_ACIDENTE",
         "APOSENTADORIA_POR_INCAPACIDADE"
       ],
-      "subtipo": [
-        "NORMAL"
-      ],
+      "subtipo": ["NORMAL"],
       "competencia": "ESTADUAL",
       "carenciaMinima": 12,
       "slug": "modelos-de-peticoes-previdenciarias/inicial-de-concessao-de-beneficio-por-incapacidade-competencia-federal-delegada-tutela-de-urgencia",
-      "tags": [
-        "INCAPACIDADE_PARA_TRABALHO"
-      ],
+      "tags": ["INCAPACIDADE_PARA_TRABALHO"],
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
       "criticas": 0,
@@ -959,19 +857,13 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
       "subtipo": [],
       "competencia": "ESTADUAL",
       "carenciaMinima": 0,
       "tempoDeContribuicaoEspecialMinimo": 14,
       "slug": "peticao-aposentadoria-por-tempo-de-contribuicao-opcao-pelo-beneficio-mais-vantajoso-20190524103436",
-      "tags": [
-        "SERVICO_MILITAR",
-        "ESCOLA_TECNICA",
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["SERVICO_MILITAR", "ESCOLA_TECNICA", "ATIVIDADE_ESPECIAL"],
       "atualizadoPor": "claudineieaj@hotmail.com",
       "curtidas": 0,
       "criticas": 0,
@@ -1006,9 +898,7 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "PENSAO_POR_MORTE"
-      ],
+      "tiposDeBeneficio": ["PENSAO_POR_MORTE"],
       "subtipo": [],
       "competencia": "FEDERAL",
       "carenciaMinima": 0,
@@ -1036,17 +926,13 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "JUDICIAL",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_ESPECIAL"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_ESPECIAL"],
       "subtipo": [],
       "competencia": "FEDERAL",
       "carenciaMinima": 0,
       "tempoDeContribuicaoEspecialMinimo": 25,
       "slug": "modelos-de-peticoes-previdenciarias/peticao-inicial-aposentadoria-especial-fisioterapeuta-agentes-biologicos",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "atualizadoPor": "lucas@previdenciarista.com",
       "curtidas": 0,
       "criticas": 0,
@@ -1074,16 +960,12 @@
       "sexo": "MASCULINO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
       "subtipo": [],
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 35,
       "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-atividade-especial-medico-patologista-soma-integral-dos-salarios-de-beneficios-concomitantes-20190513045321",
-      "tags": [
-        "ATIVIDADE_ESPECIAL"
-      ],
+      "tags": ["ATIVIDADE_ESPECIAL"],
       "atualizadoPor": "yoshiaki@previdenciarista.com",
       "curtidas": 0,
       "criticas": 0,
@@ -1093,10 +975,7 @@
         {
           "codigo": "225325",
           "titulo": "Médico patologista",
-          "sinonimos": [
-            "Patologista",
-            "Médico anatomopatologista"
-          ]
+          "sinonimos": ["Patologista", "Médico anatomopatologista"]
         }
       ],
       "incapacidades": [],
@@ -1114,9 +993,7 @@
       "sexo": "FEMININO",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
-      ],
+      "tiposDeBeneficio": ["APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"],
       "subtipo": [],
       "carenciaMinima": 180,
       "tempoDeContribuicaoMinimo": 30,
@@ -1146,9 +1023,7 @@
       "sexo": "AMBOS",
       "tipoDeProcesso": "ADMINISTRATIVO",
       "tipoDeAcao": "CONCESSAO",
-      "tiposDeBeneficio": [
-        "PENSAO_POR_MORTE"
-      ],
+      "tiposDeBeneficio": ["PENSAO_POR_MORTE"],
       "subtipo": [],
       "carenciaMinima": 0,
       "slug": "requerimento-administrativo-pensao-por-morte-esposa-falecimento-do-esposo-pescador-artesanal-piscicultor-20190507092031",
@@ -1164,11 +1039,6 @@
       "dataDaUltimaAtualizacao": "2019-05-07T12:20:33.673",
       "periodo": "PRE_REFORMA",
       "highlights": []
-    },
-    {
-      "username": "teste",
-      "password": "frontend",
-      "id": "4VupsRe"
     }
   ]
 }
