@@ -1,0 +1,1174 @@
+{
+  "peticoes": [
+    {
+      "id": "0057d2a4-e480-4f38-9e1d-8136cbf6de15",
+      "titulo": "Petição Inicial. Aposentadoria por Idade Rural. Possibilidade de cumulação com pensão por morte superior ao salário mínimo",
+      "resumo": "Petição inicial para concessão de aposentadoria por idade rural. Segurada já recebe pensão por morte  superior ao salário mínimo.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_IDADE"
+      ],
+      "subtipo": [
+        "RURAL"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "slug": "peticao-inicial-aposentadoria-por-idade-rural-possibilidade-de-cumulacao-com-pensao-por-morte-superior-ao-salario-minimo-20190904120020",
+      "tags": [
+        "TRABALHADOR_RURAL"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMinima": 55,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-09-04T14:27:48.532",
+      "dataDaUltimaAtualizacao": "2019-09-04T15:00:20.017",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "01cb1743-f8f7-4252-83bb-b4393e1b8bdd",
+      "titulo": "Petição inicial. Salário-maternidade. Inaplicabilidade do prazo decadencial previsto pela MP 871/2019. Nascimento anterior à edição da MP.",
+      "resumo": "Petição inicial de salário-maternidade,sustentando a inaplicabilidade do prazo decadencial previsto pela MP 871/2019, tendo em vista que o nascimento do infante ocorreu em momento anterior à lei.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "SALARIO_MATERNIDADE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "slug": "peticao-inicial-salario-maternidade-inaplicabilidade-do-prazo-decadencial-previsto-pela-mp-8712019-nascimento-anterior-a-edicao-da-mp-20191210022330",
+      "tags": [],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-12-10T17:23:31.233",
+      "dataDaUltimaAtualizacao": "2019-12-10T17:23:49.399",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "01cb667c-8f05-46b5-9e0f-1908f24e6601",
+      "titulo": "Incidente de Uniformização Nacional. Pensão por morte. Vínculo empregatício reconhecido na seara trabalhista e ratificado por prova testemunhal.",
+      "resumo": "Incidente de uniformização nacional contra decisão que não reconheceu vínculo empregatício confirmado em acordo na seara trabalhista, mesmo após a complementação por meio de prova testemunhal.",
+      "tipo": "INCIDENTE_DE_UNIFORMIZACAO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "PENSAO_POR_MORTE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "slug": "incidente-de-uniformizacao-nacional-pensao-por-morte-vinculo-empregaticio-reconhecido-na-seara-trabalhista-e-ratificado-por-prova-testemunhal-20200217112642",
+      "tags": [
+        "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "matheus@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-02-17T14:26:46.685",
+      "dataDaUltimaAtualizacao": "2020-08-20T12:47:04.215293",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0286f071-7414-4916-af41-d43ebce3e84c",
+      "titulo": "Petição inicial. Aposentadoria especial. Guarda Municipal. Especialidade independe do porte de arma de fogo.",
+      "resumo": "Petição inicial de aposentadoria especial, com reconhecimento da função de guarda municipal como atividade especial, independentemente do porte de arma.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_ESPECIAL"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoEspecialMinimo": 25,
+      "slug": "peticao-inicial-aposentadoria-especial-guarda-municipal-especialidade-independe-do-porte-de-arma-de-fogo-20191218033951",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "517215",
+          "titulo": "Guarda-civil municipal",
+          "sinonimos": [
+            "Guarda-civil metropolitano"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-12-18T18:39:52.401",
+      "dataDaUltimaAtualizacao": "2019-12-18T18:39:55.267",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "02b2c959-9b1a-48d7-9fc3-2dac64039706",
+      "titulo": "Requerimento Administrativo. Aposentadoria por Tempo de Contribuição pelo Fator 86/96. Conversão de tempo especial em comum.",
+      "resumo": "Requerimento administrativo de aposentadoria por tempo de contribuição. Fator 86/96. Não incidência do fator previdenciário. Conversão de tempo especial em comum.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "OUTROS",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-pelo-fator-8696-conversao-de-tempo-especial-em-comum-20190523034044",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "yoshiaki_yamamoto@hotmail.com",
+      "atualizadoPor": "yoshiaki_yamamoto@hotmail.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-05-23T18:26:53.529",
+      "dataDaUltimaAtualizacao": "2019-05-23T18:40:48.06",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "035b14b7-f47a-429c-a209-3197570d845f",
+      "titulo": "Recurso inominado. Seguro desemprego. Inexistência de prazo legal para o requerimento do benefício.",
+      "resumo": "Recurso inominado em ação de seguro desemprego. Inexistência de prazo legal para o requerimento do benefício.",
+      "tipo": "RECURSO_INOMINADO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "AUXILIO_DOENCA"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "recurso-inominado-seguro-desemprego-inexistencia-de-prazo-legal-para-o-requerimento-do-beneficio-20200728112253",
+      "tags": [],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-07-28T14:22:54.199644",
+      "dataDaUltimaAtualizacao": "2020-07-28T14:22:55.371275",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0401c676-d03c-445c-b37f-9d471d2584d7",
+      "titulo": "Petição Inicial. Aposentadoria por Tempo de Contribuição. Conversão de tempo especial. Atendente de farmácia hospitalar",
+      "resumo": "Petição inicial para concessão de aposentadoria por tempo de contribuição com conversão de tempo de serviço especial em comum. Profissão de atendente de farmácia hospitalar com exposição a agentes biológicos. ",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 30,
+      "slug": "peticao-inicial-aposentadoria-por-tempo-de-contribuicao-conversao-de-tempo-especial-atendente-de-farmacia-hospitalar-20191211030458",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "521130",
+          "titulo": "Atendente de farmácia - balconista",
+          "sinonimos": [
+            "Ajudante de farmácia"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-12-11T18:04:59.241",
+      "dataDaUltimaAtualizacao": "2019-12-11T18:04:59.674",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "04d074ab-8153-4541-8edc-f0b986392747",
+      "titulo": "Requerimento Administrativo. Revisão. Aposentadoria por Tempo de Contribuição. Atividade especial. Afastamento do fator previdenciário pela regra dos pontos. Art. 29-C da Lei 8.213/91",
+      "resumo": "Requerimento Administrativo para  Revisão de Aposentadoria por Tempo de Contribuição. Afastamento do fator previdenciário pela regra dos pontos. Art. 29-C da Lei 8.213/91.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "requerimento-administrativo-revisao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-afastamento-do-fator-previdenciario-pela-regra-dos-pontos-art-29-c-da-lei-821391-20190728051144",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-07-28T20:06:28.951",
+      "dataDaUltimaAtualizacao": "2019-07-28T20:11:43.581",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0783614e-8524-4f08-ba8a-dece748eb12e",
+      "titulo": "Requerimento administrativo. Aposentadoria por idade. Cômputo de auxílio-doença para fins de carência. Portaria nº 12/2020, do INSS.",
+      "resumo": "Requerimento de aposentadoria por idade, com cômputo de auxílio-doença intercalado para fins de carência, com base na Portaria nº 12/2020, do INSS.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_IDADE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 15,
+      "slug": "requerimento-administrativo-aposentadoria-por-idade-computo-de-auxilio-doenca-para-fins-de-carencia-portaria-no-122020-do-inss-20200529044316",
+      "tags": [
+        "INCAPACIDADE_PARA_TRABALHO"
+      ],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMinima": 60,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-05-29T19:43:17.565813",
+      "dataDaUltimaAtualizacao": "2020-05-29T19:43:19.912601",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "07914a47-a250-4a96-93bc-a7d0058ed753",
+      "titulo": "Petição inicial. Revisão. Aposentadoria por tempo de contribuição. Atividade especial. Frentista e chefe de pista de posto de combustível. Hidrocarbonetos e benzeno. Periculosidade",
+      "resumo": "Petição inicial de revisão de aposentadoria por tempo de contribuição com reconhecimento de tempo de serviço especial para período laborado como frentista e chefe de pista.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "REVISAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "peticao-inicial-revisao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-frentista-e-chefe-de-pista-de-posto-de-combustivel-hidrocarbonetos-e-benzeno-periculosidade-20200811053353",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "521135",
+          "titulo": "Frentista",
+          "sinonimos": [
+            "Atendente de posto de gasolina",
+            "Bombeiro de posto de gasolina"
+          ]
+        },
+        {
+          "codigo": "521135",
+          "titulo": "Frentista",
+          "sinonimos": [
+            "Atendente de posto de gasolina",
+            "Bombeiro de posto de gasolina"
+          ]
+        },
+        {
+          "codigo": "521135",
+          "titulo": "Frentista",
+          "sinonimos": [
+            "Atendente de posto de gasolina",
+            "Bombeiro de posto de gasolina"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-08-11T20:33:54.763444",
+      "dataDaUltimaAtualizacao": "2020-08-11T20:33:55.150687",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "07b3f1af-1df7-41a0-aa35-a35348c5e176",
+      "titulo": "Petição inicial. Aposentadoria por idade. Reforma da Previdência. EC 103/2019. Fim da exigência de carência. Cômputo de tempo especial.",
+      "resumo": "Petição inicial de aposentadoria por idade, conforme as novas regras da Emenda Constitucional 103/2019. Tese da extinção da exigência de carência. Possibilidade de cômputo de período de atividade especial.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_IDADE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "tempoDeContribuicaoMinimo": 15,
+      "slug": "peticao-inicial-aposentadoria-por-idade-reforma-da-previdencia-ec-1032019-fim-da-exigencia-de-carencia-computo-de-tempo-especial-20200408031713",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMinima": 60,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-04-08T18:17:14.562",
+      "dataDaUltimaAtualizacao": "2020-04-09T12:58:59.087",
+      "periodo": "TRANSICAO",
+      "highlights": []
+    },
+    {
+      "id": "08044fdc-d22e-4638-bc8a-3d46b8f36062",
+      "titulo": "Requerimento Administrativo. Aposentadoria por Tempo de Contribuição. Averbação de tempo de serviço urbano",
+      "resumo": "Requerimento administrativo para concessão de aposentadoria por tempo de contribuição com pedido de averbação de tempo de serviço urbano.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "OUTROS",
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-averbacao-de-tempo-de-servico-urbano-20190831050435",
+      "tags": [],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-08-31T20:04:34.47",
+      "dataDaUltimaAtualizacao": "2020-02-04T22:19:46.358",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0805b04a-773a-4726-97eb-80cea89a9453",
+      "titulo": "Petição inicial. Auxílio-reclusão. Restabelecimento do benefício após recaptura do segurado.",
+      "resumo": "Petição inicial de restabelecimento de auxílio-reclusão, após recaptura do segurado recluso.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "AUXILIO_RECLUSAO"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "peticao-inicial-auxilio-reclusao-restabelecimento-do-beneficio-apos-recaptura-do-segurado-20200618032904",
+      "tags": [],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-06-18T18:29:06.035984",
+      "dataDaUltimaAtualizacao": "2020-06-18T18:31:19.713106",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "081c1900-07a5-4b5d-9d9b-c717fac2fc36",
+      "titulo": "Petição inicial. Aposentadoria por tempo de contribuição. Regra dos pontos. Cálculo da RMI pela regra permanente do art. 29, I, da Lei 8.213/91 (Vida Toda).",
+      "resumo": "Petição inicial de aposentadoria por tempo de contribuição por pontos, requerendo o cálculo da RMI mediante a metodologia de cálculo da regra permanente do art. 29, I, da Lei 8.213/1991.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "REVISAO",
+      "tipoDeRevisao": "REVISAO_VIDA_TODA",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 30,
+      "slug": "peticao-inicial-aposentadoria-por-tempo-de-contribuicao-regra-dos-pontos-calculo-da-rmi-pela-regra-permanente-do-art-29-i-da-lei-821391-vida-toda-20200309110242",
+      "tags": [
+        "GPS_NAO_COMPUTADO",
+        "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-03-09T14:02:45.19",
+      "dataDaUltimaAtualizacao": "2020-03-09T21:02:57.248",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0820358f-3d93-4f62-9ed2-dd954eadd0ff",
+      "titulo": "Recurso inominado. Pensão por morte. Filho maior de 21 anos com deficiência intelectual ou mental.",
+      "resumo": "Recurso inominado. Pensão por morte. Filho maior de 21 anos com deficiência intelectual ou mental.",
+      "tipo": "RECURSO_INOMINADO",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "PENSAO_POR_MORTE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "recurso-inominado-pensao-por-morte-filho-maior-de-21-anos-com-deficiencia-intelectual-ou-mental-20200403093131",
+      "tags": [],
+      "criadoPor": "matheus@previdenciarista.com",
+      "atualizadoPor": "matheus@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-04-03T12:31:33.099",
+      "dataDaUltimaAtualizacao": "2020-04-03T12:31:33.485",
+      "periodo": "TRANSICAO",
+      "highlights": []
+    },
+    {
+      "id": "091288bf-fbae-4381-8adf-71a270cf6ea4",
+      "titulo": "Requerimento administrativo. Aposentadoria por tempo de contribuição. Motorista. Atividade especial. Transporte de Inflamáveis",
+      "resumo": "Requerimento administrativo de concessão de aposentadoria por tempo de contribuição com reconhecimento de tempo especial de motorista",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [],
+      "competencia": "OUTROS",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-motorista-atividade-especial-transporte-de-inflamaveis-20190529053157",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "782510",
+          "titulo": "Motorista de caminhão (rotas regionais e internacionais)",
+          "sinonimos": [
+            "Motorista de caminhão-tanque",
+            "Carreteiro (motorista de caminhão-carreta)",
+            "Motorista de caminhão-basculante",
+            "Motorista de caminhão",
+            "Gaioleiro (gado)",
+            "Caçambeiro",
+            "Motorista operador de caminhão-betoneira",
+            "Motorista de caminhão-betoneira",
+            "Cegonheiro ( motorista de caminhão)",
+            "Manobrista de veículos pesados sobre rodas",
+            "Motorista carreteiro",
+            "Motorista de caminhão-pipa",
+            "Motorista de basculante",
+            "Motorista de caminhão (entrega de bebidas)",
+            "Motorista de caminhão leve",
+            "Carreteiro (transporte de animal)"
+          ]
+        },
+        {
+          "codigo": "782510",
+          "titulo": "Motorista de caminhão (rotas regionais e internacionais)",
+          "sinonimos": [
+            "Motorista de caminhão-tanque",
+            "Carreteiro (motorista de caminhão-carreta)",
+            "Motorista de caminhão-basculante",
+            "Motorista de caminhão",
+            "Gaioleiro (gado)",
+            "Caçambeiro",
+            "Motorista operador de caminhão-betoneira",
+            "Motorista de caminhão-betoneira",
+            "Cegonheiro ( motorista de caminhão)",
+            "Manobrista de veículos pesados sobre rodas",
+            "Motorista carreteiro",
+            "Motorista de caminhão-pipa",
+            "Motorista de basculante",
+            "Motorista de caminhão (entrega de bebidas)",
+            "Motorista de caminhão leve",
+            "Carreteiro (transporte de animal)"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-05-29T20:31:59.805",
+      "dataDaUltimaAtualizacao": "2019-05-29T20:32:00.261",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "094cff88-037e-4a83-8348-2f1efbb93db8",
+      "titulo": "Manifestação. Aposentadoria por invalidez. Afastamento da reabilitação. Segurado com transplante hepático",
+      "resumo": "Manifestação postulando a concessão de aposentadoria por invalidez e afastamento do processo de reabilitação profissional, em virtude das debilidades do segurado",
+      "tipo": "MANIFESTACOES",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_INVALIDEZ"
+      ],
+      "subtipo": [],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 12,
+      "slug": "manifestacao-aposentadoria-por-invalidez-afastamento-da-reabilitacao-segurado-com-transplante-hepatico-20190729043326",
+      "tags": [
+        "INCAPACIDADE_PARA_TRABALHO"
+      ],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-07-29T19:30:05.879",
+      "dataDaUltimaAtualizacao": "2019-07-29T19:33:26.638",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "09c56d31-e7be-428c-8e2a-56f9be764b3f",
+      "titulo": "Recurso administrativo. Aposentadoria Especial de professor. Necessidade de comprovação do efetivo exercício da função de magistério.",
+      "resumo": "Recurso administrativo de aposentadoria especial de professor, com necessidade de comprovação do efetivo exercício das funções de magistério, nos termos do RE 1.039.644.",
+      "tipo": "RECURSO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO_PROFESSOR",
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "PROFESSOR"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "recurso-administrativo-aposentadoria-especial-de-professor-necessidade-de-comprovacao-do-efetivo-exercicio-da-funcao-de-magisterio-20200610111546",
+      "tags": [],
+      "criadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "atualizadoPor": "fernanda.rodrigues@jobimadvogados.com.br",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-06-10T14:15:47.759956",
+      "dataDaUltimaAtualizacao": "2020-06-10T14:15:57.590878",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0ebddaf5-a359-4ebe-9a1a-8aaafc00cfaf",
+      "titulo": "Apelação. Aposentadoria por Tempo de Contribuição. Atividade especial. Exposição ao ruído comprovada",
+      "resumo": "Apelação em ação de concessão de aposentadoria por tempo de contribuição com reconhecimento de atividade especial. Exposição ao ruído comprovada. PPP e Prova pericial.",
+      "tipo": "RECURSO_DE_APELACAO",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 30,
+      "slug": "apelacao-aposentadoria-por-tempo-de-contribuicao-atividade-especial-exposicao-ao-ruido-comprovada-20190731100803",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-07-31T13:08:04.141",
+      "dataDaUltimaAtualizacao": "2019-07-31T13:08:04.527",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0eecd524-cb35-486a-924a-cd9829579b44",
+      "titulo": "Manifestação. Benefício assistencial ao idoso (LOAS). Análise do grupo familiar",
+      "resumo": "Manifestação postulando a  concessão de benefício assistencial ao idoso, mediante análise das condições do grupo familiar",
+      "tipo": "MANIFESTACOES",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "ASSISTENCIAL"
+      ],
+      "subtipo": [
+        "PROFESSOR"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "manifestacao-beneficio-assistencial-ao-idoso-loas-analise-do-grupo-familiar-20190723111706",
+      "tags": [],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "rennano2@gmail.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-07-23T14:06:22.384",
+      "dataDaUltimaAtualizacao": "2022-01-19T12:29:57.412572",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0ef2bc85-ffc7-4bce-a13d-5c893b72871e",
+      "titulo": "Petição inicial. Revisão da vida toda. Aposentadoria por tempo de contribuição. Regra dos pontos. Inclusão de salários de contribuição anteriores à 07/1994",
+      "resumo": "Petição inicial de revisão da vida toda em aposentadoria por tempo de contribuição pela regra dos pontos",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "REVISAO",
+      "tipoDeRevisao": "REVISAO_VIDA_TODA",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [
+        "NORMAL_PONTOS"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "peticao-inicial-revisao-da-vida-toda-aposentadoria-por-tempo-de-contribuicao-regra-dos-pontos-inclusao-de-salarios-de-contribuicao-anteriores-a-071994-20200305030658",
+      "tags": [],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "renanno@gmail.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2020-03-05T18:06:59.053",
+      "dataDaUltimaAtualizacao": "2020-03-07T17:11:14.262",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "0f5a92b1-011a-4451-86ea-60ef2436f524",
+      "titulo": "Petição inicial. Pensão por morte. Segurado recebia auxílio-acidente. Lei 13.846/19. Manutenção da qualidade de segurado por 12 meses",
+      "resumo": "Petição inicial postulando a concessão de pensão por morte. Segurado recebia auxílio-acidente. Tese de manutenção da qualidade de segurado por 12 meses após o advento da Lei 13.846/19",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "PENSAO_POR_MORTE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "FEDERAL",
+      "slug": "peticao-inicial-pensao-por-morte-segurado-recebia-auxilio-acidente-lei-1384619-manutencao-da-qualidade-de-segurado-por-12-meses-20191210024853",
+      "tags": [],
+      "criadoPor": "yoshiaki@previdenciarista.com",
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-12-10T17:48:54.934",
+      "dataDaUltimaAtualizacao": "2019-12-10T17:48:55.43",
+      "periodo": "TRANSICAO",
+      "highlights": []
+    },
+    {
+      "id": "0f632d32-5d58-454d-8624-29b45473ce81",
+      "titulo": "Recurso Administrativo. Aposentadoria por Idade Rural. Cadastro de empresa  inativa não descaracteriza a condição de segurado especial. Atividade rural comprovada",
+      "resumo": "Recurso administrativo em requerimento de aposentadoria por idade rural. Empresa inativa em nome do segurado não desqualifica sua condição de segurado especial como trabalhador rural. ",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_IDADE"
+      ],
+      "subtipo": [
+        "RURAL"
+      ],
+      "competencia": "OUTROS",
+      "carenciaMinima": 180,
+      "slug": "recurso-administrativo-aposentadoria-por-idade-rural-cadastro-de-empresa-inativa-nao-descaracteriza-a-condicao-de-segurado-especial-atividade-rural-comprovada-20190916054339",
+      "tags": [
+        "TRABALHADOR_RURAL"
+      ],
+      "criadoPor": "lucas@previdenciarista.com",
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMinima": 60,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2019-09-16T20:43:38.969",
+      "dataDaUltimaAtualizacao": "2019-09-16T20:43:39.373",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "100239",
+      "titulo": "Recurso Inominado - Auxílio-doença indenizado - Qualidade de segurado - Microempreendedor individual - Lei Complementar 123",
+      "resumo": "recurso inominado na qual se defende o reconhecimento da qualidade de segurado para o microempreendedor individual que realiza o recolhimento pelo Plano Simplificado de Previdência Social.",
+      "tipo": "RECURSO_INOMINADO",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "AUXILIO_DOENCA",
+        "APOSENTADORIA_POR_INVALIDEZ"
+      ],
+      "subtipo": [],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 0,
+      "slug": "recurso-inominado-auxilio-doenca-indenizado-qualidade-de-segurado-microempreendedor-individual-lei-complementar-123-20190927105001",
+      "tags": [
+        "INCAPACIDADE_PARA_TRABALHO"
+      ],
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2017-02-23T06:17:49",
+      "dataDaUltimaAtualizacao": "2019-09-27T13:50:06.64",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "100961",
+      "titulo": "Recurso - auxílio-doença - perícia com especialista em psiquiatria - falta de pretensão resistida - análise de bulas de medicamentos",
+      "resumo": "Recurso inominado na qual se postula a anulação da sentença e realização de nova perícia com especialista em psiquiatria. Defende a existência da pretensão resistida da administração independente da análise de todas as doenças no laudo administrativo. Ademais, analisa os efeitos dos medicamentos utilizados pelo segurado com base em suas respectivas bulas. ",
+      "tipo": "RECURSO_INOMINADO",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "AUXILIO_DOENCA"
+      ],
+      "subtipo": [],
+      "competencia": "FEDERAL",
+      "carenciaMaxima": 12,
+      "slug": "recurso-auxilio-doenca-pericia-com-especialista-em-psiquiatria-falta-de-pretensao-resistida-analise-de-bulas-de-medicamentos-20190513053704",
+      "tags": [
+        "INCAPACIDADE_PARA_TRABALHO"
+      ],
+      "atualizadoPor": "atila@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2017-02-24T07:56:52",
+      "dataDaUltimaAtualizacao": "2019-05-13T20:37:06.981",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1010185",
+      "titulo": "Inicial de concessão de benefício por incapacidade - competência federal delegada - tutela de urgência",
+      "resumo": "rPetição Inicial de concessão de benefício por incapacidade, ajuizado na competência delegada ",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "AUXILIO_DOENCA",
+        "AUXILIO_ACIDENTE",
+        "APOSENTADORIA_POR_INCAPACIDADE"
+      ],
+      "subtipo": [
+        "NORMAL"
+      ],
+      "competencia": "ESTADUAL",
+      "carenciaMinima": 12,
+      "slug": "modelos-de-peticoes-previdenciarias/inicial-de-concessao-de-beneficio-por-incapacidade-competencia-federal-delegada-tutela-de-urgencia",
+      "tags": [
+        "INCAPACIDADE_PARA_TRABALHO"
+      ],
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-25T11:54:49",
+      "dataDaUltimaAtualizacao": "2019-11-16T17:19:13.13",
+      "periodo": "REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1010225",
+      "titulo": "Petição. Aposentadoria por tempo de contribuição. Opção pelo benefício mais vantajoso",
+      "resumo": "Modelo de petição requerendo a manutenção de benefício mais vantajoso deferido administrativamente no curso do processo, sem a necessidade de renunciar às parcelas atrasadas do benefício judicial",
+      "tipo": "PETICOES",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [],
+      "competencia": "ESTADUAL",
+      "carenciaMinima": 0,
+      "tempoDeContribuicaoEspecialMinimo": 14,
+      "slug": "peticao-aposentadoria-por-tempo-de-contribuicao-opcao-pelo-beneficio-mais-vantajoso-20190524103436",
+      "tags": [
+        "SERVICO_MILITAR",
+        "ESCOLA_TECNICA",
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "atualizadoPor": "claudineieaj@hotmail.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMinima": 54,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "342405",
+          "titulo": "Agente de estação (ferrovia e metrô)",
+          "sinonimos": [
+            "Chefe de estação (ferrovia)",
+            "Agente de pátio e terminais (ferrovia e metrô)",
+            "Assistente de estação (metrô e ferrovia)",
+            "Supervisor geral de operação (metrô)",
+            "Supervisor de estação (metrô e ferrovia)"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-25T14:02:49",
+      "dataDaUltimaAtualizacao": "2019-05-24T13:34:25.483",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1010692",
+      "titulo": "Inicial de concessão de pensão por morte - menor sob guarda - curador especial - tutela de evidência",
+      "resumo": "Petição inicial de concessão de pensão por morte ao menor sob guarda, com pedido de tutela provisória de evidência liminar",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "PENSAO_POR_MORTE"
+      ],
+      "subtipo": [],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 0,
+      "slug": "inicial-de-concessao-de-pensao-por-morte-menor-sob-guarda-curador-especial-tutela-de-evidencia-20190526045429",
+      "tags": [],
+      "atualizadoPor": "atila@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "idadeMaxima": 21,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-26T08:35:43",
+      "dataDaUltimaAtualizacao": "2019-05-26T19:54:29.57",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1011074",
+      "titulo": "Petição inicial. Aposentadoria especial. Fisioterapeuta. Agentes biológicos",
+      "resumo": "Modelo de petição inicial para concessão de aposentadoria especial à profissional fisioterapeuta exposto a agentes biológicos.",
+      "tipo": "PETICOES_INICIAIS",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "JUDICIAL",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_ESPECIAL"
+      ],
+      "subtipo": [],
+      "competencia": "FEDERAL",
+      "carenciaMinima": 0,
+      "tempoDeContribuicaoEspecialMinimo": 25,
+      "slug": "modelos-de-peticoes-previdenciarias/peticao-inicial-aposentadoria-especial-fisioterapeuta-agentes-biologicos",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "atualizadoPor": "lucas@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "223605",
+          "titulo": "Fisioterapeuta geral",
+          "sinonimos": []
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-27T08:10:37",
+      "dataDaUltimaAtualizacao": "2019-04-25T20:42:22.239",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1012326",
+      "titulo": "Requerimento administrativo. Aposentadoria por tempo de contribuição. Atividade especial. Médico patologista. Soma integral dos salários-de-benefícios concomitantes",
+      "resumo": "Requerimento administrativo de aposentadoria por tempo de contribuição com a conversão do tempo de serviço especial, laborado como MÉDICO PATOLOGISTA em tempo comum. Pedido de soma integral dos salários-de=contribuição concomitantes.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "MASCULINO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [],
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 35,
+      "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-atividade-especial-medico-patologista-soma-integral-dos-salarios-de-beneficios-concomitantes-20190513045321",
+      "tags": [
+        "ATIVIDADE_ESPECIAL"
+      ],
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [
+        {
+          "codigo": "225325",
+          "titulo": "Médico patologista",
+          "sinonimos": [
+            "Patologista",
+            "Médico anatomopatologista"
+          ]
+        }
+      ],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-30T07:38:47",
+      "dataDaUltimaAtualizacao": "2019-05-13T19:53:22.195",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1012475",
+      "titulo": "Requerimento administrativo. Aposentadoria por tempo de contribuição. Acerto de contribuições. Presunção da anotação em CTPS. Ausência de recolhimentos. Segurado empregado. Indenização das contribuições em atrasado. Contribuinte individual.",
+      "resumo": "Requerimento administrativo de aposentadoria por tempo de contribuição, pleiteando o acerto de contribuições como contribuinte individual e o cômputo dos vínculos empregatícios anotados na CTPS, ainda que as empregadoras não tem efetuado recolhimentos.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "FEMININO",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "APOSENTADORIA_POR_TEMPO_DE_CONTRIBUICAO"
+      ],
+      "subtipo": [],
+      "carenciaMinima": 180,
+      "tempoDeContribuicaoMinimo": 30,
+      "slug": "requerimento-administrativo-aposentadoria-por-tempo-de-contribuicao-acerto-de-contribuicoes-presuncao-da-anotacao-em-ctps-ausencia-de-recolhimentos-segurado-empregado-indenizacao-das-contribuicoes-em--20190522044413",
+      "tags": [
+        "CONTRIBUINTE_INDIVIDUAL",
+        "CONTRATO_DE_TRABALHO_COM_ERRO_NO_CNIS"
+      ],
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-07-30T13:16:16",
+      "dataDaUltimaAtualizacao": "2019-05-22T19:44:15.677",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "id": "1013569",
+      "titulo": "Requerimento administrativo. Pensão por morte. Esposa. Falecimento do esposo. Pescador artesanal. Piscicultor.",
+      "resumo": "Requerimento administrativo de pensão por morte, em razão do óbito do esposo, pescador artesanal e piscicultor.",
+      "tipo": "REQUERIMENTO_ADMINISTRATIVO",
+      "status": "REVISANDO",
+      "sexo": "AMBOS",
+      "tipoDeProcesso": "ADMINISTRATIVO",
+      "tipoDeAcao": "CONCESSAO",
+      "tiposDeBeneficio": [
+        "PENSAO_POR_MORTE"
+      ],
+      "subtipo": [],
+      "carenciaMinima": 0,
+      "slug": "requerimento-administrativo-pensao-por-morte-esposa-falecimento-do-esposo-pescador-artesanal-piscicultor-20190507092031",
+      "tags": [],
+      "atualizadoPor": "yoshiaki@previdenciarista.com",
+      "curtidas": 0,
+      "criticas": 0,
+      "ativa": true,
+      "score": 0.19007304,
+      "profissoes": [],
+      "incapacidades": [],
+      "dataDeCriacao": "2018-08-02T13:16:38",
+      "dataDaUltimaAtualizacao": "2019-05-07T12:20:33.673",
+      "periodo": "PRE_REFORMA",
+      "highlights": []
+    },
+    {
+      "username": "teste",
+      "password": "frontend",
+      "id": "4VupsRe"
+    }
+  ]
+}
