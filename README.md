@@ -1,59 +1,70 @@
-# Teste Front-end Previdenciarista
-Estamos muito felizes em saber que você chegou até aqui. Realize o teste com calma, essa é a oportunidade de demonstrar suas habilidades e seus conhecimentos!
+# Getting Started with Create React App
 
-## O Desafio!
-O desafio consiste em desenvolver uma página de Login e o carregamento do Dashboard baseado nas informações do usuário logado.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### O que gostariamos de ver
-- ContextApi, Hooks, States, Routes etc..
-- Requisições RESTFul
-- Styled-Components para customização
-- Componentização, reutilização e extensibilidade dos componentes visuais
-- Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
-- Código limpo
+## Available Scripts
 
-### Diferenciais
-- Testes unitários / funcionais
-- Commits semanticos
-- Adaptar a página para dispositivos móveis (torná-la responsiva).
-- Boa documentação.
+In the project directory, you can run:
 
-### Diretrizes
-- Deve ser utilizado o `creact-react-app` com a versão mais atual
-- Seguir a implementação do Design [Figma](https://www.figma.com/file/RCZ9wWsHBet9dTQl6RIIHW/Teste-Prev-Front-end) chegando mais próximo possível.
-- Utilizar o framework [AntD](https://ant.design/) para base dos componentes
-- As chamadas aos serviços esta disponível no servidor mock `http://localhost:8080`
+### `npm start`
 
-### Requisitos
-- Login
-  - Criar a tela e o fluxo de login
-    - rota para login `POST` `http://localhost:8080/oauth` passando no request `{ "username": "teste", "password": "frontend" }`
-  - Redirecionar para rota `/dashboard`
-- Dashboard 
-    - Acessível somente para usuário logado, se não retornar ao login
-    - Carregar as informações do usuário logado
-    - As informações do usuário são retornados no `access_token` no formato JWT
-    - Clicar sobre o avatar do usuário abrir um Modal mostrando as informações do usuário logado
-  - Mostrar os contadores com base na info do usuário logado
-    - rota para os contadores `GET` `/counter?tipo={tipoModulo}`
-  - Carregar uma lista de petições
-    - A lista deve ser páginada de 2 em 2 resultados, mostrando uma paginação
-    - Ao clicar em "Pré-visualizar petição", abrir uma modal para mostrar as informações detalhadas da petição, esta tela você esta livre para mostrar os detalhes da petição como achar melhor!
-  #### Atenção:
-  - Para realizar a paginação do serviço deve ser passado os QueryParams `?_page=1&_limit=2`
-  - O total de item do serviço `/peticoes?_page=1&_limit=2` retorna no header `X-Total-Count` o total de petições cadastradas
-   - `https://github.com/typicode/json-server#paginate`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Rodando o servidor mock para request
-- Instalar o json-server
-    -   `npm install -g json-server`
-- Executar o seguinte comando:
-    -  `json-server --watch db.json -p 8080 -m lmd.js --routes routes.json`
-    _OBS_: deve ser na pastar raiz do projeto
-- O servidor roda no `http://localhost:8080`, se tudo estiver certo bastar realizar as chamadas
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-# Como realizar a entrega
-- Faça um fork desse repositório.
-- Resolva o desafio da melhor maneira que você puder.
-- Envie um pull-request para análise do resultado.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
