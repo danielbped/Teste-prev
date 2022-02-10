@@ -7,7 +7,7 @@ import { Navigate } from 'react-router-dom';
 
 const Dashboard = () => {
   const token = localStorage.getItem('token');
-
+  const PAGE = 1;
   if (!token) return <Navigate to="/" />;
 
   const { conta } = jwt_decode(token);
@@ -16,7 +16,7 @@ const Dashboard = () => {
     <main>
       <Header user={ conta } />
       <Info user={ conta } />
-      <Petitions user={ conta } />
+      <Petitions page={ PAGE }/>
     </main>
   )
 }
