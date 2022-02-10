@@ -8,5 +8,9 @@ export const StyledHeader = styled.header`
 
 export const Img = styled.img`
   border-radius: 50%;
-  width: 50px
+  width: 50px;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;

@@ -35,6 +35,10 @@ export const Button = styled.button`
   color: white;
   font-weight: bold;
   padding: .5rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Warning = styled.p`

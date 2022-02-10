@@ -1,5 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  StyledPetitionCard,
+  PetitionTitles,
+  PetitionResume,
+  PetitionSubtype,
+  PetitionFooter,
+  PetitionDate,
+  PetitionLink,
+  PetitionTitle
+} from '../Style/Dashboard'
 
 const PetitionCard = (
   { petition: {
@@ -13,17 +23,22 @@ const PetitionCard = (
   const hour = dataDeCriacao.split('T')[1].split('.')[0];
 
   return (
-    <div>
-      <div>
-        { titulo.split('.').map((title) => <p key={ title }>{ title }</p>) }
-      </div>
-      <p>{ subtipo[0] }</p>
-      <p>{ resumo }</p>
-      <div>
-        <p>Publicação: { date } - { hour }</p>
-        <p>Pré-visualizar petição</p>
-      </div>
-    </div>
+    <StyledPetitionCard>
+      <PetitionTitles>
+        { titulo.split('.').slice(-3).map(
+            (title) => <PetitionTitle key={ title }>{ title }</PetitionTitle>
+          )
+        }
+      </PetitionTitles>
+      <PetitionSubtype>
+        { subtipo[0].charAt(0) + subtipo[0].slice(1).toLowerCase() }
+      </PetitionSubtype>
+      <PetitionResume>{ resumo }</PetitionResume>
+      <PetitionFooter>
+        <PetitionDate>Publicação: { date } - { hour }</PetitionDate>
+        <PetitionLink>Pré-visualizar petição</PetitionLink>
+      </PetitionFooter>
+    </StyledPetitionCard>
   )
 }
 
