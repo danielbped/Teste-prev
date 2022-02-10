@@ -49,4 +49,44 @@ export const PetitionLink = styled.p`
   }
 `;
 
+export const StyledPaginate = styled.div`
+  .pagination {
+    align-items: center;
+    color: #3575AB;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .pageClassName {
+    border: 1px solid #D9D9D9;
+    list-style: none;
+    margin: .5rem;
+    padding: .3rem .5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .activeLinkClassName {
+    color: #F26526;
+  }
+
+  .nextClassName {
+    border: 1px solid #D9D9D9;
+    list-style: none;
+    padding: .3rem .5rem;
+  }
+
+  .previousClassName {
+    border: 1px solid #D9D9D9;
+    list-style: none;
+    padding: .3rem .5rem;
+  }
+
+  .breakClassName {
+    list-style: none;
+  }
+`;
 

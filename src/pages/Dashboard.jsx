@@ -6,14 +6,17 @@ import Info from '../components/Info'
 import axios from 'axios';
 import { Navigate } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
-import { DashboardTitle } from '../Style/Dashboard'
+import {
+  DashboardTitle,
+  StyledPaginate,
+} from '../Style/Dashboard'
 
 const Dashboard = () => {
   const authorization = localStorage.getItem('token');
-  const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1)
+  const [page, setPage] = useState(0);
+  const [totalPages, setTotalPages] = useState(0)
 
-  const handlePageClick = ({ selected }) => setPage(selected);
+  const handlePageClick = ({ selected }) => setPage(selected + 1);
 
   useEffect(() => {
     axios({
@@ -33,15 +36,23 @@ const Dashboard = () => {
       <Info user={ conta } />
       <DashboardTitle>Últimas petições</DashboardTitle>
       <Petitions page={ page }/>
-      <ReactPaginate
-        breakLabel="..."
-        nextLabel=">"
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={5}
-        pageCount={Math.ceil(totalPages)}
-        previousLabel="<"
-        renderOnZeroPageCount={null}
-      />
+      <StyledPaginate>
+        <ReactPaginate
+          breakLabel="..."
+          nextLabel=">"
+          onPageChange={handlePageClick}
+          pageRangeDisplayed={5}
+          pageCount={Math.ceil(totalPages)}
+          previousLabel="<"
+          renderOnZeroPageCount={null}
+          containerClassName="pagination"
+          pageClassName="pageClassName"
+          activeLinkClassName="activeLinkClassName"
+          previousClassName="previousClassName"
+          nextClassName="nextClassName"
+          breakClassName="breakClassName"
+        />
+      </StyledPaginate>
     </main>
   )
 }
