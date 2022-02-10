@@ -1,6 +1,8 @@
 import React from 'react';
 import jwt_decode from 'jwt-decode'
 import Header from '../components/Header'
+import Petitions from '../components/Petitions'
+import Info from '../components/Info'
 import { Navigate } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -11,7 +13,11 @@ const Dashboard = () => {
   const { conta } = jwt_decode(token);
 
   return (
-    <Header user={ conta } />
+    <main>
+      <Header user={ conta } />
+      <Info user={ conta } />
+      <Petitions user={ conta } />
+    </main>
   )
 }
 

@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Img, StyledHeader } from '../Style/Header'
+import { Img, StyledHeader, HeaderProfile, Name } from '../Style/Header'
 
 const Header = ({ user }) => {
-  const { email, nome, urlImagemPerfil } = user;
+  const { nome, urlImagemPerfil } = user;
   return (
     <StyledHeader>
-      <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
-      <div>
-        <p>{ nome }</p>
-        <p>{ email }</p>
-      </div>
+      <HeaderProfile>
+        <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
+        <Name>{ nome }</Name>
+      </HeaderProfile>
     </StyledHeader>
   )
 }

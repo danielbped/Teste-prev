@@ -22,8 +22,8 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       const POST_URL = 'http://localhost:8080/oauth';
-      const { data: { access_token }  } = await axios.post(POST_URL, user);
-      localStorage.setItem('token', access_token);
+      const { data: { access_token, token_type }  } = await axios.post(POST_URL, user);
+      localStorage.setItem('token', `${token_type} ${access_token}`);
       navigate('/dashboard')
     } catch (error) {
       const { message } = await error.response.data;
