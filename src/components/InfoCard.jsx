@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const InfoCard = ({ modulo }) => {
-  const { tipo, total, totalPeriodo: { mensal } } = modulo;
+const InfoCard = ({ module }) => {
+  const { tipo, total, totalPeriodo: { mensal } } = module;
   return (
     <div>
       <h2>{ tipo }</h2>
@@ -13,7 +13,7 @@ const InfoCard = ({ modulo }) => {
 }
 
 InfoCard.propTypes = {
-  modulo: PropTypes.shape({
+  module: PropTypes.shape({
     tipo: PropTypes.string.isRequired,
     total: PropTypes.number.isRequired,
     totalPeriodo: PropTypes.shape({

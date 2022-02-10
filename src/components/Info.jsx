@@ -5,21 +5,21 @@ import InfoCard from './InfoCard';
 
 const Info = ({ user }) => {
   const authorization = localStorage.getItem('token');
-  const [modulos, setModulos] = useState([]);
+  const [modules, setModules] = useState([]);
 
   useEffect(() => {
-    if (modulos.length === 0) {
-      Promise.all(user.modulos.map((modulo) => axios({
-        url: `http://localhost:8080/counter?tipo=${modulo}`,
+    if (modules.length === 0) {
+      Promise.all(user.modulos.map((module) => axios({
+        url: `http://localhost:8080/counter?tipo=${module}`,
         method: 'GET',
         headers: { authorization },
-      }).then(({ data }) => data[0]))).then(setModulos)
+      }).then(({ data }) => data[0]))).then(setModules)
     }
-  }, [modulos, authorization, user.modulos])
+  }, [modules, authorization, user.modulos])
 
   return (
     <div>
-      { modulos.map((modulo) => <InfoCard modulo={ modulo } />) }
+      { modules.map((module) => <InfoCard module={ module } />) }
     </div>
   )
 }
