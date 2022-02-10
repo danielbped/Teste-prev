@@ -12,7 +12,7 @@ const Petitions = ({ page }) => {
       method: 'GET',
       headers: { authorization },
     }).then(({ data }) => setPetitions(data))
-  })
+  }, [page, authorization])
 
   return (
     <div>
