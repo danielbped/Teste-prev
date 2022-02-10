@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Img, StyledHeader, HeaderProfile, Name } from '../Style/Header'
+import { Img, StyledHeader } from '../Style/Header'
+import Logo from '../Style/Logo';
+import LogoSvg from '../svg/Logo.svg';
 
 const Header = ({ user }) => {
   const { nome, urlImagemPerfil } = user;
   return (
     <StyledHeader>
-      <HeaderProfile>
-        <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
-        <Name>{ nome }</Name>
-      </HeaderProfile>
+      <Logo src={ LogoSvg }/>
+      <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
     </StyledHeader>
   )
 }

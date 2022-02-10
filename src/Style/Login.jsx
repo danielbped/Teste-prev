@@ -13,11 +13,6 @@ export const Form = styled.form`
   width: 20%;
 `;
 
-export const Img = styled.img`
-  margin-bottom: .7rem;
-  width: 6.5rem;
-`
-
 export const StyledInput = styled.input`
   margin: .7rem 0;
   outline: none;

@@ -1,14 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  StyledCard,
+  StyledCardTitle,
+  StyledCardMensal,
+  StyledCardTotal,
+} from '../Style/Info';
 
 const InfoCard = ({ module }) => {
   const { tipo, total, totalPeriodo: { mensal } } = module;
   return (
-    <div>
-      <h2>{ tipo }</h2>
-      <p>{ total }</p>
-      <p>Este mês: { mensal }</p>
-    </div>
+    <StyledCard>
+      <StyledCardTitle>
+        { tipo.charAt(0) + tipo.slice(1).toLowerCase() }
+      </StyledCardTitle>
+      <StyledCardTotal tipo={ tipo }>
+        { total }
+      </StyledCardTotal>
+      <StyledCardMensal>
+        Este mês: { mensal }
+      </StyledCardMensal>
+    </StyledCard>
   )
 }
 

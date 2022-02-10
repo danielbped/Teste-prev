@@ -6,6 +6,7 @@ import Info from '../components/Info'
 import axios from 'axios';
 import { Navigate } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
+import { DashboardTitle } from '../Style/Dashboard'
 
 const Dashboard = () => {
   const authorization = localStorage.getItem('token');
@@ -30,6 +31,7 @@ const Dashboard = () => {
     <main>
       <Header user={ conta } />
       <Info user={ conta } />
+      <DashboardTitle>Últimas petições</DashboardTitle>
       <Petitions page={ page }/>
       <ReactPaginate
         breakLabel="..."

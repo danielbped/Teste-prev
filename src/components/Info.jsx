@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import InfoCard from './InfoCard';
+import { StyledInfo } from '../Style/Info';
 
 const Info = ({ user }) => {
   const authorization = localStorage.getItem('token');
@@ -18,9 +19,9 @@ const Info = ({ user }) => {
   }, [modules, authorization, user.modulos])
 
   return (
-    <div>
+    <StyledInfo>
       { modules.map((module) => <InfoCard module={ module } key={ module.tipo } />) }
-    </div>
+    </StyledInfo>
   )
 }
 

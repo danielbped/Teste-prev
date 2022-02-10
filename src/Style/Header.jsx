@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
 `;
 
-export const HeaderProfile = styled.div`
-`
-
-export const Name = styled.p`
-`
-
 export const Img = styled.img`
-  width: 100px
+  border-radius: 50%;
+  width: 50px
 `;
