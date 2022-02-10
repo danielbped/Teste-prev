@@ -16,7 +16,7 @@ const Petitions = ({ page }) => {
 
   return (
     <div>
-      { petitions.map((petition) => <PetitionCard petition={ petition } />) }
+      { petitions.map((petition) => <PetitionCard petition={ petition } key={ petition.id } />) }
     </div>
   );
 };

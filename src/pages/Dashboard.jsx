@@ -36,7 +36,7 @@ const Dashboard = () => {
         nextLabel=">"
         onPageChange={handlePageClick}
         pageRangeDisplayed={5}
-        pageCount={totalPages}
+        pageCount={Math.ceil(totalPages)}
         previousLabel="<"
         renderOnZeroPageCount={null}
       />

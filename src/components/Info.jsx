@@ -19,7 +19,7 @@ const Info = ({ user }) => {
 
   return (
     <div>
-      { modules.map((module) => <InfoCard module={ module } />) }
+      { modules.map((module) => <InfoCard module={ module } key={ module.tipo } />) }
     </div>
   )
 }
