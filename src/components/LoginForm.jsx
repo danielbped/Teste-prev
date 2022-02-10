@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Input from './Input';
 import axios from 'axios';
 
@@ -9,7 +10,7 @@ const LoginForm = () => {
   })
 
   const [warning, setWarning] = useState('');
-
+  const navigate = useNavigate();
   const handleLogin = ({ target }) => {
     setUser({
       ...user,
@@ -21,10 +22,12 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       const POST_URL = 'http://localhost:8080/oauth';
-      await axios.post(POST_URL, user)
+      const { data: { access_token }  } = await axios.post(POST_URL, user);
+      localStorage.setItem('token', access_token);
+      navigate('/dashboard')
     } catch (error) {
       const { message } = await error.response.data;
-      setWarning(message)
+      setWarning(message);
     }
   }
 
