@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Input from './Input';
 import axios from 'axios';
+import { Form, Main, Button, P, Img, Warning } from '../Style/Login';
+import Logo from '../svg/Logo.svg';
 
 const LoginForm = () => {
   const [user, setUser] = useState({
@@ -28,33 +30,37 @@ const LoginForm = () => {
     } catch (error) {
       const { message } = await error.response.data;
       setWarning(message);
+      setTimeout(() => setWarning(''), 5000);
     }
   }
 
   return (
-    <form onSubmit={ handleSubmit }>
-      <Input
-        type='text'
-        placeholder='Digite seu email ou CPF'
-        label='Email ou CPF'
-        onChange={ handleLogin }
-        name='username'
-      />
-      <Input
-        type='password'
-        placeholder='Digite sua senha'
-        label='Senha'
-        onChange={ handleLogin }
-        name='password'
-      />
-      <p>Esqueceu a senha?</p>
-      <button
-        type='submit'
-      >
-        Entrar
-      </button>
-      { warning && <p>{ warning }</p> }
-    </form>
+    <Main>
+      <Form onSubmit={ handleSubmit }>
+        <Img src={ Logo } />
+        <Input
+          type='text'
+          placeholder='Digite seu email ou CPF'
+          label='Email ou CPF'
+          onChange={ handleLogin }
+          name='username'
+        />
+        <Input
+          type='password'
+          placeholder='Digite sua senha'
+          label='Senha'
+          onChange={ handleLogin }
+          name='password'
+        />
+        <P>Esqueceu a senha?</P>
+        <Button
+          type='submit'
+        >
+          Entrar
+        </Button>
+        { warning && <Warning>{ warning }</Warning> }
+      </Form>
+    </Main>
   )
 }
 
