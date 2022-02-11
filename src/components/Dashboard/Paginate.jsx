@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPaginate from 'react-paginate';
-import { StyledPaginate } from '../Style/Dashboard';
+import { StyledPaginate } from '../../Style/Dashboard';
 
 const Paginate = ({ totalPages, handlePageClick }) => {
   return (

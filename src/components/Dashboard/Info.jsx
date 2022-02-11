@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import InfoCard from './InfoCard';
-import { StyledInfo } from '../Style/Info';
+import { StyledInfo } from '../../Style/Info';
 
 const Info = ({ user }) => {
   const authorization = localStorage.getItem('token');

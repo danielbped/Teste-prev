@@ -54,8 +54,9 @@ export const StyledPaginate = styled.div`
     align-items: center;
     color: #3575AB;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 1rem;
+    margin-right: 2.5rem;
   }
 
   .pageClassName {

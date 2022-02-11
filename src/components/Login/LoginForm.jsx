@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Input from './Input';
 import axios from 'axios';
-import { Form, Main, Button, P, Warning } from '../Style/Login';
-import Logo from '../Style/Logo';
-import LogoSvg from '../svg/Logo.svg';
+import { Form, Main, Button, P, Warning } from '../../Style/Login';
+import Logo from '../../Style/Logo';
+import LogoSvg from '../../svg/Logo.svg';
 
 const LoginForm = () => {
   const [user, setUser] = useState({

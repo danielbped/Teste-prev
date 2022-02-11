@@ -7,11 +7,11 @@ import {
   P,
   Title,
   Span,
-} from '../Style/Modal'
-import DataContext from '../context/DataContext';
+} from '../../Style/Modal'
+import DataContext from '../../context/DataContext';
 
-const ProfileModal = ({ user }) => {
-  const { setShowModal } = useContext(DataContext);
+const ProfileModalDetails = ({ user }) => {
+  const { setShowProfileModal } = useContext(DataContext);
 
   const {
     nome,
@@ -43,7 +43,7 @@ const ProfileModal = ({ user }) => {
       </P>
       <Button
         type="button"
-        onClick={() => setShowModal(false)}
+        onClick={() => setShowProfileModal(false)}
       >
         Fechar
       </Button>
@@ -51,7 +51,7 @@ const ProfileModal = ({ user }) => {
   )
 }
 
-ProfileModal.propTypes = {
+ProfileModalDetails.propTypes = {
   user: PropTypes.shape({
     ativo: PropTypes.bool.isRequired,
     email: PropTypes.string.isRequired,
@@ -63,4 +63,4 @@ ProfileModal.propTypes = {
   })
 }
 
-export default ProfileModal;
+export default ProfileModalDetails;

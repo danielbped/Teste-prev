@@ -9,8 +9,8 @@ import {
   PetitionDate,
   PetitionLink,
   PetitionTitle
-} from '../Style/Dashboard'
-import Eye from '../svg/Eye.svg';
+} from '../../Style/Dashboard'
+import Eye from '../../svg/Eye.svg';
 
 const PetitionCard = (
   { petition: {

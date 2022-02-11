@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactModal from 'react-modal';
-import ProfileModal from './ProfileModal'
+import ProfileModalDetails from './ProfileModalDetails'
 
 const style = {
   content: {
@@ -10,16 +10,16 @@ const style = {
   } 
 }
 
-const Modal = ({ showModal, user }) => {
+const ProfileModal = ({ showModal, user }) => {
   return (
     <ReactModal
       isOpen={ showModal }
       contentLabel="Profile Modal"
       style={ style }
     >
-      <ProfileModal user={ user }/>
+      <ProfileModalDetails user={ user }/>
     </ReactModal>
   )
 }
 
-export default Modal;
+export default ProfileModal;

@@ -5,7 +5,7 @@ import {
   StyledCardTitle,
   StyledCardMensal,
   StyledCardTotal,
-} from '../Style/Info';
+} from '../../Style/Info';
 
 const InfoCard = ({ module }) => {
   const { tipo, total, totalPeriodo: { mensal } } = module;

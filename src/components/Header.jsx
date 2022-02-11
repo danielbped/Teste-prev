@@ -7,11 +7,11 @@ import DataContext from '../context/DataContext';
 
 const Header = ({ user }) => {
   const { nome, urlImagemPerfil } = user;
-  const { setShowModal } = useContext(DataContext);
+  const { setShowProfileModal } = useContext(DataContext);
   return (
     <StyledHeader>
       <Logo src={ LogoSvg }/>
-      <Button type="button" onClick={ () => setShowModal(true) }>
+      <Button type="button" onClick={ () => setShowProfileModal(true) }>
         <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
       </Button>
     </StyledHeader>

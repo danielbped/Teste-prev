@@ -3,10 +3,10 @@ import DataContext from './DataContext'
 import PropTypes from 'prop-types';
 
 const UserProvider = ({ children }) => {
-  const [showModal, setShowModal] = useState(false)
+  const [showProfileModal, setShowProfileModal] = useState(false)
 
   return (
-    <DataContext.Provider value={ { showModal, setShowModal } }>
+    <DataContext.Provider value={ { showProfileModal, setShowProfileModal } }>
       { children }
     </DataContext.Provider>
   )
