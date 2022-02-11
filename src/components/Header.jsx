@@ -9,7 +9,9 @@ const Header = ({ user }) => {
   return (
     <StyledHeader>
       <Logo src={ LogoSvg }/>
-      <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
+      <button type="button">
+        <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
+      </button>
     </StyledHeader>
   )
 }

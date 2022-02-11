@@ -8,9 +8,9 @@ const UserProvider = ({ children }) => {
   };
 
   return (
-    <DataContext.Provder value={ contextValue }>
+    <DataContext.Provider value={ contextValue }>
       { children }
-    </DataContext.Provder>
+    </DataContext.Provider>
   )
 }
 
