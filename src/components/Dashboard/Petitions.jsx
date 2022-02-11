@@ -4,6 +4,7 @@ import PetitionCard from './PetitionCard';
 import Loading from '../Loading';
 import PetitionModal from '../Modal/PetitionModal';
 import DataContext from '../../context/DataContext';
+import NoPetitions from './NoPetitions';
 import PropTypes from 'prop-types';
 
 const Petitions = ({ page }) => {
@@ -22,6 +23,8 @@ const Petitions = ({ page }) => {
   }, [page, authorization])
 
   if (loading) return <Loading />
+
+  if (petitions.length === 0) return <NoPetitions />
 
   return (
     <div>

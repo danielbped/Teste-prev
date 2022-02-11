@@ -118,3 +118,8 @@ export const Button = styled.button`
   border: none;
   color: #3575AB;
 `;
+
+export const NoPetitionsText = styled.p`
+  font-weight: bold;  
+  margin: 2.5rem;
+`;

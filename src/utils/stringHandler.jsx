@@ -1,5 +1,5 @@
 export const nameToLowerCase = (name) => {
-  return name.charAt(0) + name.slice(1).toLowerCase();
+  return name.charAt(0) + name.slice(1).toLowerCase().replace('_', ' ');
 }
 
 export const dateHandler = (fulldate) => {

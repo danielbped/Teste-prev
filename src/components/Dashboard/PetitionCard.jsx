@@ -34,7 +34,7 @@ const PetitionCard = (
         }
       </PetitionTitles>
       <PetitionSubtype>
-        { nameToLowerCase(subtipo[0]) }
+        { subtipo.length !== 0 && nameToLowerCase(subtipo[0]) }
       </PetitionSubtype>
       <PetitionResume>{ resumo }</PetitionResume>
       <PetitionFooter>
