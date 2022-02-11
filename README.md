@@ -11,6 +11,7 @@
 - [Organização e estruturação do projeto](#organizacao)
 - [Desenvolvimento](#desenvolvimento)
 - [Testes](#testes)
+- [Resultado](#resultado)
 
 # Tecnologias Utilizadas <a name="tecnologias"></a>
 
@@ -145,7 +146,7 @@ Para desenvolver os modais, foi utilizada a biblioteca [**React Modal**](https:/
 
 Para desenvolver a paginação, foi utilizada a biblioteca [**React Paginate**](https://www.npmjs.com/package/react-paginate)
 
-# Testes
+# Testes <a name="testes"></a>
 
 Para o desenvolvimento dos teste, foram utilizadas as bibliotecas [**React Testing Library**](https://testing-library.com/docs/react-testing-library/intro/) e [**React Mock LocalStorage**](https://www.npmjs.com/package/@react-mock/localstorage). A segunda, para mockar o token no localStorage do navegador. Tendo um total de 87.42% de cobertura.
 
@@ -194,3 +195,36 @@ All files                  |   87.42 |    94.44 |   76.19 |   88.75 |
   stringHandler.jsx        |     100 |      100 |     100 |     100 |                   
 ---------------------------|---------|----------|---------|---------|-------------------
 ```
+
+
+# Resultado <a name="resultado"></a>
+
+## Login
+
+![Login](images/login.png)
+
+- Caso a senha seja inserida incorretamente, uma mensagem de erro surgirá, durante 5 segundos.
+
+![Login com senha errada](images/login-wrong-password.png)
+
+## Página de petições
+
+![Petições](images/dashboard.png)
+
+- Detalhes da petição
+
+![Detalhes da petição](images/petition-modal.png)
+
+- Detalhes do usuário
+
+![Detalhes do usuário](images/user-modal.png)
+
+## Responsividade
+
+- Página de petições responsiva
+
+![Página de petições responsiva](images/petition-responsive.png)
+
+- Detalhes do usuário responsivo
+
+![Detalhes do usuário responsivo](images/user-modal-responsive.png)
