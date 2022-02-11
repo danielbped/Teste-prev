@@ -14,3 +14,8 @@ export const Img = styled.img`
     cursor: pointer;
   }
 `;
+
+export const Button = styled.button`
+  border: none;
+  background-color: transparent;
+`;

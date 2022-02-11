@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DataContext from './DataContext'
 import PropTypes from 'prop-types';
 
 const UserProvider = ({ children }) => {
-  const contextValue = {
-    showModal: false,
-  };
+  const [showModal, setShowModal] = useState(false)
 
   return (
-    <DataContext.Provider value={ contextValue }>
+    <DataContext.Provider value={ { showModal, setShowModal } }>
       { children }
     </DataContext.Provider>
   )
