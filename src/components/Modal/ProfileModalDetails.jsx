@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 import {
   Modal,
   Button,
@@ -7,11 +8,19 @@ import {
   P,
   Title,
   Span,
-} from '../../Style/ProfileModal'
+  LogoutButton,
+} from '../../Style/ProfileModal';
 import DataContext from '../../context/DataContext';
 
 const ProfileModalDetails = ({ user }) => {
   const { setShowProfileModal } = useContext(DataContext);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    navigate('/dashboard');
+    setShowProfileModal(false);
+    localStorage.removeItem('token');
+  }
 
   const {
     nome,
@@ -47,6 +56,12 @@ const ProfileModalDetails = ({ user }) => {
       >
         Fechar
       </Button>
+      <LogoutButton
+        type="button"
+        onClick={ handleLogout }
+      >
+        Sair
+      </LogoutButton>
     </Modal>
   )
 }

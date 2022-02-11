@@ -38,3 +38,16 @@ export const Button = styled.button`
     cursor: pointer;
   }
 `;
+
+export const LogoutButton = styled.button`
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: .5rem;
+  margin-top: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+`;
