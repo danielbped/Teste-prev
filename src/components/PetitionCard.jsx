@@ -10,6 +10,7 @@ import {
   PetitionLink,
   PetitionTitle
 } from '../Style/Dashboard'
+import Eye from '../svg/Eye.svg';
 
 const PetitionCard = (
   { petition: {
@@ -36,7 +37,11 @@ const PetitionCard = (
       <PetitionResume>{ resumo }</PetitionResume>
       <PetitionFooter>
         <PetitionDate>Publicação: { date } - { hour }</PetitionDate>
-        <PetitionLink>Pré-visualizar petição</PetitionLink>
+        <PetitionLink>
+          <img src={ Eye } alt="View" />
+          {" "}
+          Pré-visualizar petição
+        </PetitionLink>
       </PetitionFooter>
     </StyledPetitionCard>
   )
