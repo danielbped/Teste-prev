@@ -20,6 +20,10 @@ export const PetitionTitle = styled.div`
   color: #3575AB;
   margin: 1rem .5rem;
   padding: .3rem;
+
+  &:last-child {
+    display: none;
+  }
 `;
 
 export const PetitionSubtype = styled.p`
@@ -38,9 +42,17 @@ export const PetitionFooter = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+
+  @media(max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const PetitionDate = styled.div`
+  @media(max-width: 500px) {
+    font-size: .7rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const PetitionLink = styled.p`
@@ -88,6 +100,16 @@ export const StyledPaginate = styled.div`
 
   .breakClassName {
     list-style: none;
+  }
+
+  @media(max-width: 500px) {
+    .pagination {
+      margin: 1rem 0;
+    }
+
+    .pageClassName {
+      margin: .3rem
+    }
   }
 `;
 
