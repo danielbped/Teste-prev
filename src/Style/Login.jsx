@@ -10,7 +10,15 @@ export const Main = styled.div`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
+
+  @media(max-width: 900px) {
+    width: 70%;
+  }
+
+  @media(max-width: 1200px) {
+    width: 60%;
+  }
 `;
 
 export const StyledInput = styled.input`
