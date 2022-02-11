@@ -2,15 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StyledInput, Label } from '../../Style/Login';
 
-const Input = ({ name, onChange, placeholder, type, label }) => {
+const Input = ({ name, onChange, placeholder, type, label, dataTestId }) => {
   return (
-    <Label>
+    <Label data-testid={`${ dataTestId }-label`}>
       { label }
       <StyledInput
         name={ name }
         onChange={ onChange }
         placeholder={ placeholder }
         type={ type }
+        data-testid={`${ dataTestId }`}
       />
     </Label>
   )

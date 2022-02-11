@@ -38,13 +38,14 @@ const LoginForm = () => {
   return (
     <Main>
       <Form onSubmit={ handleSubmit }>
-        <Logo src={ LogoSvg } />
+        <Logo src={ LogoSvg } data-testid="logo-login" />
         <Input
           type='text'
           placeholder='Digite seu email ou CPF'
           label='Email ou CPF'
           onChange={ handleLogin }
           name='username'
+          dataTestId='username-input'
         />
         <Input
           type='password'
@@ -52,14 +53,20 @@ const LoginForm = () => {
           label='Senha'
           onChange={ handleLogin }
           name='password'
+          dataTestId='password-input'
         />
-        <P>Esqueceu a senha?</P>
+        <P
+          data-testid='lost-password'
+        >
+          Esqueceu a senha?
+        </P>
         <Button
           type='submit'
+          data-testid='login-button'
         >
           Entrar
         </Button>
-        { warning && <Warning>{ warning }</Warning> }
+        { warning && <Warning data-testid='warning'>{ warning }</Warning> }
       </Form>
     </Main>
   )
