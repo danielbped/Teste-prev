@@ -91,3 +91,8 @@ export const StyledPaginate = styled.div`
   }
 `;
 
+export const Button = styled.button`
+  background-color: transparent;
+  border: none;
+  color: #3575AB;
+`;

@@ -16,6 +16,6 @@ export const Img = styled.img`
 `;
 
 export const Button = styled.button`
-  border: none;
   background-color: transparent;
+  border: none;
 `;

@@ -3,16 +3,17 @@ import styled from 'styled-components';
 export const Modal = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
 `;
 
 export const Title = styled.h2`
   color: #3575AB;
-  margin: .5rem 0;
+  margin: 1rem 0;
 `;
 
 export const Img = styled.img`
+  align-self: center;
   border-radius: 50%;
+  margin-bottom: 1rem;
   width: 10rem;
 `;
 
@@ -31,6 +32,7 @@ export const Button = styled.button`
   color: white;
   font-weight: bold;
   padding: .5rem;
+  margin-top: 1rem;
 
   &:hover {
     cursor: pointer;
