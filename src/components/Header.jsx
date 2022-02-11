@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { Img, StyledHeader, Button } from '../Style/Header'
 import Logo from '../Style/Logo';
 import LogoSvg from '../svg/Logo.svg';
+import DataContext from '../context/DataContext';
 
 const Header = ({ user }) => {
   const { nome, urlImagemPerfil } = user;
+  const { setShowModal } = useContext(DataContext);
   return (
     <StyledHeader>
       <Logo src={ LogoSvg }/>
-      <Button type="button">
+      <Button type="button" onClick={ () => setShowModal(true) }>
         <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
       </Button>
     </StyledHeader>

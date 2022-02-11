@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import jwt_decode from 'jwt-decode'
 import Header from '../components/Header'
 import Petitions from '../components/Petitions'
 import Info from '../components/Info'
 import axios from 'axios';
 import { Navigate } from 'react-router-dom';
-import ReactPaginate from 'react-paginate';
-import {
-  DashboardTitle,
-  StyledPaginate,
-} from '../Style/Dashboard'
+import { DashboardTitle } from '../Style/Dashboard';
+import DataContext from '../context/DataContext';
+import Modal from '../components/Modal';
+import Paginate from '../components/Paginate';
 
 const Dashboard = () => {
   const authorization = localStorage.getItem('token');
   const [page, setPage] = useState(0);
   const [totalPages, setTotalPages] = useState(0)
+  const { showModal } = useContext(DataContext);
 
   const handlePageClick = ({ selected }) => setPage(selected + 1);
 
@@ -34,25 +34,16 @@ const Dashboard = () => {
     <main>
       <Header user={ conta } />
       <Info user={ conta } />
+      <Modal
+        showModal = { showModal}
+        user={ conta }
+      />
       <DashboardTitle>Últimas petições</DashboardTitle>
       <Petitions page={ page }/>
-      <StyledPaginate>
-        <ReactPaginate
-          breakLabel="..."
-          nextLabel=">"
-          onPageChange={handlePageClick}
-          pageRangeDisplayed={5}
-          pageCount={Math.ceil(totalPages)}
-          previousLabel="<"
-          renderOnZeroPageCount={null}
-          containerClassName="pagination"
-          pageClassName="pageClassName"
-          activeLinkClassName="activeLinkClassName"
-          previousClassName="previousClassName"
-          nextClassName="nextClassName"
-          breakClassName="breakClassName"
-        />
-      </StyledPaginate>
+      <Paginate
+        handlePageClick={ handlePageClick }
+        totalPages = { totalPages }
+      />
     </main>
   )
 }
