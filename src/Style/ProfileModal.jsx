@@ -3,11 +3,10 @@ import styled from 'styled-components';
 export const Modal = styled.div`
   display: flex;
   flex-direction: column;
-`;
 
-export const Title = styled.h2`
-  color: #3575AB;
-  margin: 1rem 0;
+  @media(max-width: 1300px) {
+    padding-top: 2rem;
+  }
 `;
 
 export const Img = styled.img`
@@ -15,6 +14,14 @@ export const Img = styled.img`
   border-radius: 50%;
   margin-bottom: 1rem;
   width: 10rem;
+
+  @media(max-width: 1300px) {
+    margin-top: 3rem;
+  }
+
+  @media(max-width: 1300px) {
+    width: 6rem;
+  }
 `;
 
 export const P = styled.p`

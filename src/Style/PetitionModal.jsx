@@ -23,9 +23,17 @@ export const Title = styled.h2`
 
 export const P = styled.p`
   margin: .5rem 0;
+
+  @media(max-width: 900px) {
+    font-size: .9rem;
+  }
 `;
 
 export const Span = styled.span`
   color: #3575AB;
   font-weight: bold;
+
+  @media(max-width: 900px) {
+    font-size: .9rem;
+  }
 `;

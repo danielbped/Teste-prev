@@ -6,7 +6,6 @@ import {
   Button,
   Img,
   P,
-  Title,
   Span,
   LogoutButton,
 } from '../../Style/ProfileModal';
@@ -33,8 +32,11 @@ const ProfileModalDetails = ({ user }) => {
 
   return (
     <Modal>
-      <Title>Perfil de { nome }</Title>
       <Img src={ urlImagemPerfil } alt="Foto de perfil" />
+      <P>
+        <Span>Nome: </Span>
+        { nome }
+      </P>
       <P>
         <Span>ID do usuário: </Span>
         { uuid }

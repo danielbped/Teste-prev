@@ -6,6 +6,7 @@ const style = {
   content: {
     margin: 'auto',
     width: '40%',
+    height: '70vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
