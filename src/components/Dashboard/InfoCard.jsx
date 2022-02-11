@@ -6,13 +6,14 @@ import {
   StyledCardMensal,
   StyledCardTotal,
 } from '../../Style/Info';
+import { nameToLowerCase } from '../../utils/stringHandler';
 
 const InfoCard = ({ module }) => {
   const { tipo, total, totalPeriodo: { mensal } } = module;
   return (
     <StyledCard>
       <StyledCardTitle>
-        { tipo.charAt(0) + tipo.slice(1).toLowerCase() }
+        { nameToLowerCase(tipo) }
       </StyledCardTitle>
       <StyledCardTotal tipo={ tipo }>
         { total }

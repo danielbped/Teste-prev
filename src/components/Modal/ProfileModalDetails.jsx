@@ -7,7 +7,7 @@ import {
   P,
   Title,
   Span,
-} from '../../Style/Modal'
+} from '../../Style/ProfileModal'
 import DataContext from '../../context/DataContext';
 
 const ProfileModalDetails = ({ user }) => {

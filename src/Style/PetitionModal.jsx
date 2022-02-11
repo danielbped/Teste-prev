@@ -13,5 +13,19 @@ export const Button = styled.button`
 `;
 
 export const Modal = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
+export const Title = styled.h2`
+  font-size: 1rem;
+`;
+
+export const P = styled.p`
+  margin: .5rem 0;
+`;
+
+export const Span = styled.span`
+  color: #3575AB;
+  font-weight: bold;
 `;

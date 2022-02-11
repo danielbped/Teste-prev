@@ -1,57 +1,63 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import {
-  StyledPetitionCard,
-  PetitionTitles,
-  PetitionResume,
-  PetitionSubtype,
-  PetitionFooter,
-  PetitionDate,
-  PetitionLink,
-  PetitionTitle,
+  Modal,
   Button,
-} from '../../Style/Dashboard'
-import Eye from '../../svg/Eye.svg';
+  P,
+  Span,
+  Title,
+} from '../../Style/PetitionModal'
 import DataContext from '../../context/DataContext';
-import { nameToLowerCase, dateHandler } from '../../utils/stringHandler';
+import {
+  nameToLowerCase,
+  dateHandler,
+} from '../../utils/stringHandler';
 
-const PetitionCard = (
-  { petition: {
-    titulo,
-    resumo,
-    dataDeCriacao,
-    subtipo
-  }
-}) => {
+const PetitionModalDetails = ({ petition }) => {
   const { setShowPetitionModal } = useContext(DataContext);
 
+  const {
+    id,
+    titulo,
+    resumo,
+    status,
+    sexo,
+    tipoDeProcesso,
+    tipoDeAcao,
+    subtipo,
+    carenciaMinima,
+    criadoPor,
+    dataDeCriacao,
+    atualizadoPor,
+    dataDaUltimaAtualizacao,
+  } = petition;
+
   return (
-    <StyledPetitionCard>
-      <PetitionTitles>
-        { titulo.split('.').slice(-3).map(
-            (title) => <PetitionTitle key={ title }>{ title }</PetitionTitle>
-          )
-        }
-      </PetitionTitles>
-      <PetitionSubtype>
-        { nameToLowerCase(subtipo[0]) }
-      </PetitionSubtype>
-      <PetitionResume>{ resumo }</PetitionResume>
-      <PetitionFooter>
-        <PetitionDate>Publicação: { dateHandler(dataDeCriacao) }</PetitionDate>
-        <Button onClick={ () => setShowPetitionModal(true) }>
-          <PetitionLink>
-            <img src={ Eye } alt="View" />
-            {" "}
-            Pré-visualizar petição
-          </PetitionLink>
-        </Button>
-      </PetitionFooter>
-    </StyledPetitionCard>
+    <Modal>
+      <Title>{ titulo }</Title>
+      <P><Span>ID da petição: </Span>{ id }</P>
+      <P><Span>Tipo: </Span>{ nameToLowerCase(subtipo[0]) }</P>
+      <P><Span>Resumo: </Span>{ resumo }</P>
+      <P><Span>Sexo: </Span>{ nameToLowerCase(sexo) }</P>
+      <P><Span>Status: </Span>{ nameToLowerCase(status) }</P>
+      <P><Span>Tipo de processo: </Span>{ nameToLowerCase(tipoDeProcesso) }</P>
+      <P><Span>Tipo de ação: </Span>{ nameToLowerCase(tipoDeAcao) }</P>
+      <P><Span>Carência Mínima: </Span>{ carenciaMinima }</P>
+      <P><Span>Criado por: </Span>{ criadoPor }</P>
+      <P><Span>Data de criação: </Span>{ dateHandler(dataDeCriacao) }</P>
+      <P><Span>Atualizado por: </Span>{ atualizadoPor }</P>
+      <P><Span>Data de atualização: </Span>{ dateHandler(dataDaUltimaAtualizacao) }</P>
+      <Button
+        type="button"
+        onClick={() => setShowPetitionModal(false)}
+      >
+        Fechar
+      </Button>
+    </Modal>
   )
 }
 
-PetitionCard.propTypes = {
+PetitionModalDetails.propTypes = {
   petition: PropTypes.shape({
     id: PropTypes.string.isRequired,
     titulo: PropTypes.string.isRequired,
@@ -81,6 +87,6 @@ PetitionCard.propTypes = {
     periodo: PropTypes.string.isRequired,
     highlights: PropTypes.arrayOf(PropTypes.string).isRequired,
   })
-};
+}
 
-export default PetitionCard;
+export default PetitionModalDetails;

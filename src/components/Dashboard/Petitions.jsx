@@ -1,12 +1,15 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import PetitionCard from './PetitionCard';
 import Loading from '../Loading';
+import PetitionModal from '../Modal/PetitionModal';
+import DataContext from '../../context/DataContext';
 
 const Petitions = ({ page }) => {
   const authorization = localStorage.getItem('token');
   const [petitions, setPetitions] = useState([])
   const [loading, setLoading] = useState(true);
+  const { showPetitionModal } = useContext(DataContext);
 
   useEffect(() => {
     axios({
@@ -21,7 +24,17 @@ const Petitions = ({ page }) => {
 
   return (
     <div>
-      { petitions.map((petition) => <PetitionCard petition={ petition } key={ petition.id } />) }
+      { petitions.map((petition) => {
+        return (
+          <>
+            <PetitionCard petition={ petition } key={ petition.id } />
+            <PetitionModal 
+              showModal = { showPetitionModal }
+              petition={ petition }
+            />
+          </>
+        )
+      }) }
     </div>
   );
 };
