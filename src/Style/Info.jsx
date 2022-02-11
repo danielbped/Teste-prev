@@ -14,10 +14,6 @@ export const StyledCard = styled.div`
   margin: 1rem 2rem;
   padding: 2rem 5rem;
 
-  @media(max-width: 520px) {
-    display: none;
-  }
-
   @media(max-width: 1000px) {
     margin: 1rem;
     padding: 1.5rem;

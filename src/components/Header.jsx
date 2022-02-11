@@ -10,9 +10,16 @@ const Header = ({ user }) => {
   const { setShowProfileModal } = useContext(DataContext);
   return (
     <StyledHeader>
-      <Logo src={ LogoSvg }/>
-      <Button type="button" onClick={ () => setShowProfileModal(true) }>
-        <Img src={ urlImagemPerfil } alt={ `Foto de ${nome}` } />
+      <Logo
+        src={ LogoSvg }
+        data-testid='logo-header'
+      />
+      <Button type='button' onClick={ () => setShowProfileModal(true) }>
+        <Img
+          src={ urlImagemPerfil }
+          alt={ `Foto de ${nome}` }
+          data-testid='profile-picture'
+        />
       </Button>
     </StyledHeader>
   )

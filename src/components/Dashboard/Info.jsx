@@ -20,7 +20,12 @@ const Info = ({ user }) => {
 
   return (
     <StyledInfo>
-      { modules.map((module) => <InfoCard module={ module } key={ module.tipo } />) }
+      { modules.map((module) => (
+        <InfoCard
+          module={ module }
+          key={ module.tipo }
+        />
+      )) }
     </StyledInfo>
   );
 };

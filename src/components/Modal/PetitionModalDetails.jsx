@@ -33,7 +33,7 @@ const PetitionModalDetails = ({ petition }) => {
   } = petition;
 
   return (
-    <Modal>
+    <Modal data-test>
       <Title>{ titulo }</Title>
       <P><Span>ID da petição: </Span>{ id }</P>
       <P><Span>Tipo: </Span>{ nameToLowerCase(subtipo[0]) }</P>

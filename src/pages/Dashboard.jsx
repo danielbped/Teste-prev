@@ -23,10 +23,10 @@ const Dashboard = () => {
       url: `http://localhost:8080/peticoes?_page=${page}&_limit=2`,
       method: 'GET',
       headers: { authorization },
-    }).then(({ headers }) => setTotalPages(headers["x-total-count"]))
+    }).then(({ headers }) => setTotalPages(headers['x-total-count']))
   }, [authorization, page, totalPages])
 
-  if (!authorization) return <Navigate to="/" />;
+  if (!authorization) return <Navigate to='/' />;
 
   const { conta } = jwt_decode(authorization);
 
@@ -38,7 +38,11 @@ const Dashboard = () => {
         showModal = { showProfileModal }
         user={ conta }
       />
-      <DashboardTitle>Últimas petições</DashboardTitle>
+      <DashboardTitle
+        data-testid='dashboard-title'
+      >
+        Últimas petições
+      </DashboardTitle>
       <Petitions page={ page }/>
       <Paginate
         handlePageClick={ handlePageClick }

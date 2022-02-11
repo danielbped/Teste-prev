@@ -11,7 +11,7 @@ import { nameToLowerCase } from '../../utils/stringHandler';
 const InfoCard = ({ module }) => {
   const { tipo, total, totalPeriodo: { mensal } } = module;
   return (
-    <StyledCard>
+    <StyledCard data-testid='card-info'>
       <StyledCardTitle>
         { nameToLowerCase(tipo) }
       </StyledCardTitle>

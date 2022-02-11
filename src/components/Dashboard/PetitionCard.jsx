@@ -26,7 +26,7 @@ const PetitionCard = (
   const { setShowPetitionModal } = useContext(DataContext);
 
   return (
-    <StyledPetitionCard>
+    <StyledPetitionCard data-testid="petition-card">
       <PetitionTitles>
         { titulo.split('.').slice(-3).map(
             (title) => <PetitionTitle key={ title }>{ title }</PetitionTitle>
