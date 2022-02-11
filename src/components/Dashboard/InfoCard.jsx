@@ -32,7 +32,7 @@ InfoCard.propTypes = {
     totalPeriodo: PropTypes.shape({
       mensal: PropTypes.number,
     }).isRequired,
-  })
-}
+  }),
+};
 
 export default InfoCard;

@@ -22,8 +22,8 @@ const Info = ({ user }) => {
     <StyledInfo>
       { modules.map((module) => <InfoCard module={ module } key={ module.tipo } />) }
     </StyledInfo>
-  )
-}
+  );
+};
 
 Info.propTypes = {
   user: PropTypes.shape({

@@ -86,7 +86,7 @@ PetitionModalDetails.propTypes = {
     dataDaUltimaAtualizacao: PropTypes.string.isRequired,
     periodo: PropTypes.string.isRequired,
     highlights: PropTypes.arrayOf(PropTypes.string).isRequired,
-  })
-}
+  }),
+};
 
 export default PetitionModalDetails;

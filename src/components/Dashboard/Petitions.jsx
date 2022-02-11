@@ -4,6 +4,7 @@ import PetitionCard from './PetitionCard';
 import Loading from '../Loading';
 import PetitionModal from '../Modal/PetitionModal';
 import DataContext from '../../context/DataContext';
+import PropTypes from 'prop-types';
 
 const Petitions = ({ page }) => {
   const authorization = localStorage.getItem('token');
@@ -27,8 +28,9 @@ const Petitions = ({ page }) => {
       { petitions.map((petition) => {
         return (
           <>
-            <PetitionCard petition={ petition } key={ petition.id } />
-            <PetitionModal 
+            <PetitionCard petition={ petition } key={ `${petition.id}-card` } />
+            <PetitionModal
+              key={ `${petition.id}-modal` } 
               showModal = { showPetitionModal }
               petition={ petition }
             />
@@ -37,6 +39,10 @@ const Petitions = ({ page }) => {
       }) }
     </div>
   );
+};
+
+Petitions.propTypes = {
+  page: PropTypes.number.isRequired,
 };
 
 export default Petitions;

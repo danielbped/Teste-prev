@@ -18,6 +18,7 @@ const ProfileModal = ({ showModal, user }) => {
       isOpen={ showModal }
       contentLabel="Profile Modal"
       style={ style }
+      ariaHideApp={ false }
     >
       <ProfileModalDetails user={ user }/>
     </ReactModal>
