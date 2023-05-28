@@ -4,7 +4,7 @@ import UserProvider from './context/UserProvider';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <UserProvider>
         <Routes />
       </UserProvider>
